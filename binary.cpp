@@ -23,9 +23,9 @@ ofstream myfile{"abc.bin, ios::binary"};
 
 	myfile.write(reinterpret_cast<char*>(&a),sizeof(a));
 
-	myfile.write(reinterpret_cast<char*>(&a),sizeof(b));
+	myfile.write(reinterpret_cast<char*>(&b),sizeof(b));
 	
-	myfile.write(reinterpret_cast<char*>(&a),sizeof(c));
+	myfile.write(reinterpret_cast<char*>(&c),sizeof(c));
 	
  }else
 
