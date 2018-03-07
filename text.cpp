@@ -22,6 +22,7 @@ ofstream myfile{"abc.txt"};
 
 
 	myfile<<a<<" "<<b<< " "<<c<< " "<<endl;
+		
  }else
 
 	cout<<"error opening abc.txt";
